@@ -12,38 +12,13 @@ namespace FileReadingTest
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            /*string fileName2 =@"C:\Users\acer\Desktop\Abc.Xml";
-            XmlTextWriter xmlWriter = new XmlTextWriter(fileName2, System.Text.Encoding.UTF8);
-            xmlWriter.Formatting = Formatting.Indented;
-            xmlWriter.WriteStartDocument();
-            xmlWriter.WriteComment("This is Xml Write");
-            xmlWriter.WriteStartElement("Employees");
-            for (int i=1; i<=3; i++)
-            {
-                xmlWriter.WriteStartElement("Employee"); 
-
-                Console.WriteLine("Enter the Employees Id ");
-                xmlWriter.WriteElementString("ID",Console.ReadLine());
-
-                Console.WriteLine("Enter the Employees Name ");
-                xmlWriter.WriteElementString("Name", Console.ReadLine());
-
-                Console.WriteLine("Enter the Employees Department ");
-                xmlWriter.WriteElementString("Department", Console.ReadLine());
-
-                xmlWriter.WriteEndElement();
-            }
-
-            xmlWriter.WriteEndElement();
-            xmlWriter.WriteEndDocument();
-            xmlWriter.Flush();
-            xmlWriter.Close();*/
+            /**/
             //  TimingDifference td = new TimingDifference();
             //td.TimeDifference();
             // ReadConfigData rd = new ReadConfigData();
             //  rd.ConfigOUtput();
-            /* ReadXml sd = new ReadXml();
-             sd.Test();*/
+           /* ReadXml readxml = new ReadXml();
+            readxml.ReadXmlFile();*/
             /*ZipAndUnzip zp = new ZipAndUnzip();
             zp.UnZipFileMethod();*/
             /* ParamsDemo paramsdemo = new ParamsDemo();
@@ -61,7 +36,8 @@ namespace FileReadingTest
             //StudentDetails studentDetail = new StudentDetails();
             // studentDetail.TestMethod(2,"Mohammad Imran","I.T");
             StoredProcedureReturnValues st = new StoredProcedureReturnValues();
-            st.ReturnTest();
+            st.StudentsDetails();
+
         }
     }
 }
